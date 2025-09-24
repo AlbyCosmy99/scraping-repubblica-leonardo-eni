@@ -32,17 +32,6 @@ The solution includes **three independent scrapers**:
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/ScrapingRepubblica-main.git
-cd ScrapingRepubblica-main
-
-# Create and activate a virtual environment
-python3 -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-
-# Install Python dependencies
-pip install -r requirements.txt
-
 # Install Chromium for Playwright
 python3 -m playwright install chromium
 ```
